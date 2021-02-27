@@ -1,21 +1,15 @@
 # Jobber
 
-**TODO: Add description**
+A playground for learning about Job processing
 
-## Installation
+This is a project from the book ["Concurrent Data Processing in Elixir"](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/)
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `jobber` to your list of dependencies in `mix.exs`:
+The end of chapter two closes with you having built a supervised job processing application
+and for you to consider adding some additional features to it.
 
-```elixir
-def deps do
-  [
-    {:jobber, "~> 0.1.0"}
-  ]
-end
-```
+## Ideas to Explore
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/jobber](https://hexdocs.pm/jobber).
-
+- [ ] Queues
+- [ ] Persistence
+- [ ] [Broadway](https://github.com/dashbitco/broadway)
+- [ ] AIaaS (AI as a Service) with [nx](https://github.com/elixir-nx/nx)

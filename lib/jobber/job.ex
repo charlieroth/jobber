@@ -40,7 +40,7 @@ defmodule Jobber.Job do
   end
 
   def handle_info(:retry, state) do
-    # Delegate work to the handle_continue/2  call-back
+    # Delegate work to the handle_continue/2  callback
     {:noreply, state, {:continue, :run}}
   end
 
