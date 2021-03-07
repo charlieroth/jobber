@@ -1,6 +1,6 @@
 # Jobber
 
-A project for learning about Job processing
+A project for learning about Task, Supervisor, DynamicSupervisor
 
 This is a project from the book ["Concurrent Data Processing in Elixir"](https://pragprog.com/titles/sgdpelixir/concurrent-data-processing-in-elixir/)
 
