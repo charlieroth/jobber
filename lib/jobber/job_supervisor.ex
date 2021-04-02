@@ -1,4 +1,7 @@
 defmodule Jobber.JobSupervisor do
+  @moduledoc"""
+  Supervisor for jobs
+  """
   use Supervisor, restart: :temporary
 
   def start_link(args) do

@@ -1,4 +1,7 @@
 defmodule Jobber do
+  @moduledoc"""
+  API for calling with Jobber methods
+  """
   alias Jobber.{JobRunner, JobSupervisor}
 
   def start_job(args) do

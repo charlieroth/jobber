@@ -1,4 +1,7 @@
 defmodule Jobber.Job do
+  @moduledoc"""
+  Represents a job that performs arbitrary work
+  """
   alias Jobber.{JobRegistry, Job}
   use GenServer, restart: :transient
   require Logger

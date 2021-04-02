@@ -1,4 +1,8 @@
 defmodule Jobber.Application do
+  @moduledoc"""
+  Application that starts job supervisor, registry,
+  and a dynamic supervisor for job running
+  """
   use Application
 
   @impl true
